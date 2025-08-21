@@ -1,12 +1,12 @@
-// const number = 25;
+const number = 25;
 
-// if (number % 2 == 0)
-// {
-//     console.log("número par!");
-// }else
-// {
-//     console.log("número ímpar!");
-// }
+if (number % 2 == 0)
+{
+    console.log("número par!");
+}else
+{
+    console.log("número ímpar!");
+}
 
 const nt = 10;
 
@@ -19,4 +19,22 @@ if (nt >= 8.5)
 }else
 {
     console.log("Reprovado!");
+}
+
+
+const animal = "gato";
+
+switch(animal)
+{
+    case "gato":
+        {
+            console.log("miau");
+            break;
+        }
+    case "cachorro":
+        {
+            console.log("dog");
+            break;
+        }
+    
 }
