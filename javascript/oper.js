@@ -17,3 +17,8 @@ const ready = takeBash && brushTeeth;
 
 console.log("Ele está pronto? ", ready);
 
+const number = 4;
+const age = 22
+
+console.log((number % 2 === 0) ? "par" : "ímpar");
+console.log((age >= 18) ? "maior de idade" : "menor de idade");
