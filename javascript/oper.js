@@ -9,3 +9,11 @@ console.log(sub);
 console.log(mul);
 console.log(div);
 console.log(rest);
+
+const takeBash = true;
+const brushTeeth = false;
+
+const ready = takeBash && brushTeeth;
+
+console.log("Ele está pronto? ", ready);
+
